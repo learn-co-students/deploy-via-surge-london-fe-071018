@@ -1,3 +1,12 @@
 body {
-  background: purple;
+  background: #aaa;
+  font-family: Tahoma;
+  font-size: 100px;
+}
+
+@media only screen and (max-width:500px){
+  body {
+    background-color: blue;
+    width: 100%;
+  }
 }
